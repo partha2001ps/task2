@@ -1,0 +1,37 @@
+Compare window and Document :
+
+In a window and document are a Opject .  web development to use method document and window. To below followings are window and document difference.
+
+Document :
+
+      Document one of the Object.This object represent the web page. Here are some key characteristics of the `document` object. HTML all code are to handle in a document object . All HTML code contents web page develement to used
+
+       It allows developers to select and modify individual elements like paragraphs, headings, images, and more .The document object to provided as html structure access.
+
+       Method: The document object of methods are like as getElementById,getElementsByClassName , and querySelectorAll, enabling developers to traverse and manipulate elements efficiently. These methods aid in selecting specific elements based on IDs, classes, or other attributes.
+
+      To developer handle the HTML  paragaraph ,text and all tags by the web page developement. This includes modifying text, attributes, and even adding or removing elements.
+
+Window :
+
+   The window object represents the browser window or tab that displays the web page. It provides a broader scope of functionalities related to the browser environment and user interactions. Here are some key features of the window object.
+
+    The `window` object is the global object in the browser's JavaScript environment. This means that variables and functions declared without the `var`, `let`, or `const` keywords are automatically attached to the `window object.
+
+   The `window` object enables developers to control browser behavior, such as opening new windows or tabs, navigating history, and manipulating the location of the current page.
+
+Method: It provides methods like `setTimeout` and `setInterval` to schedule code execution after specific time intervals.
+
+Key Differences:
+
+  While both the document and window objects contribute to creating interactive web applications, their primary differences lie in their roles and scope:
+
+    Document object to used for the HTML contant and code to access in developer tools.Window object to used for the focus of the web page and padder and padding with in the browser.
+
+   Methods and Properties: The `document` object provides methods and properties for selecting, modifying, and navigating HTML elements. The `window` object offers methods for managing the browser window, handling events, and interacting with the browser.
+
+    Window object used an javascript environment and document object as used in stracture and contant of the web page itself.
+
+conclusion:
+
+ understanding the distinctions between the `document` and `window` objects is crucial for effective web development. Both objects play integral roles in creating dynamic and interactive web pages, but they serve different purposes and offer distinct sets of methods and properties
